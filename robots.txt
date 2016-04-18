@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://RosemaryYL.github.com/sitemap.xml 
