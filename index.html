@@ -139,6 +139,7 @@ ghost.init({
 <div class="widget">
   <h4 class="title">微信公众号</h4>
   <div class="content weixin">
+    <img src="/logo.jpg" />
     <a href="/erweima/" class="btn btn-default btn-block" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '下载Ghost'])">微信公众号</a>
   </div>
 </div>
@@ -227,15 +228,5 @@ ghost.init({
             });*/
         });
     </script>
-
-    <script>
-    $(function(){
-        var version = '0.7.4';
-        var $download =  $('.download > a').first();
-        var html = $download.html().replace(/\d\.\d\.\d/, version);
-        
-        $download.html(html);
-    });
-</script>
 </body>
 </html>
